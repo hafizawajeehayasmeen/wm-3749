@@ -1,0 +1,41 @@
+.center{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+h4{
+    margin-top: -40px;
+    text-align: center;
+    color:#6b5acd ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+table{
+    background-color:#6b5acd;
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+   color: white;
+ padding: 20px;
+ border: 1 px solid black;
+
+ }
+.first{
+    float: left;
+    width: 12em;
+}
+
+.third{
+    width: 60px;
+}
+
+
+.table2 {
+    padding: 0;
+    text-align: center;
+    
+}
+.month{
+    width: 80px;
+}

@@ -1,0 +1,37 @@
+[debug] [2020-05-01T10:32:36.137Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T10:32:36.168Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aKbar aLi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-05-01T10:32:36.172Z] CLI Version:   8.0.3
+[debug] [2020-05-01T10:32:36.173Z] Platform:      win32
+[debug] [2020-05-01T10:32:36.175Z] Node Version:  v12.16.2
+[debug] [2020-05-01T10:32:36.242Z] Time:          Fri May 01 2020 15:32:36 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-05-01T10:32:36.245Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T10:32:36.246Z] 
+[debug] [2020-05-01T10:32:36.440Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-01T10:32:36.444Z] > authorizing via signed-in user
+[debug] [2020-05-01T10:32:36.447Z] [iam] checking project hafizawajeehayasmeen-12 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-05-01T10:32:36.464Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-01T10:32:36.467Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-01T10:32:37.235Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 10:32:35 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T10:32:37.311Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hafizawajeehayasmeen-12:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-05-01T10:32:39.153Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 10:32:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1383","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T10:32:39.168Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hafizawajeehayasmeen-12  
+ 
+[debug] [2020-05-01T10:32:39.884Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 10:32:38 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'hafizawajeehayasmeen-12'...
+[info] 
+[info] i  deploying hosting
+[debug] [2020-05-01T10:32:39.946Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hafizawajeehayasmeen-12/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-05-01T10:32:42.826Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 10:32:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[hafizawajeehayasmeen-12]: beginning deploy...
+[info] i  hosting[hafizawajeehayasmeen-12]: found 41 files in public
+[debug] [2020-05-01T10:32:44.516Z] [hosting] hash cache [cHVibGlj] stored for 41 files
+[debug] [2020-05-01T10:32:44.517Z] [hosting][hash queue][FINAL] {"max":1051,"min":120,"avg":595.9024390243902,"active":0,"complete":41,"success":41,"errored":0,"retried":0,"total":41,"elapsed":1172}
+[debug] [2020-05-01T10:32:44.519Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hafizawajeehayasmeen-12/versions/a9a146b489541e9f:populateFiles  
+ <request body omitted>
+[debug] [2020-05-01T10:32:46.481Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 10:32:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T10:32:46.718Z] [hosting][populate queue][FINAL] {"max":2006,"min":2006,"avg":2006,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2218}
+[debug] [2020-05-01T10:32:46.721Z] [hosting] uploads queued: 35

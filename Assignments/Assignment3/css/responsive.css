@@ -1,0 +1,346 @@
+@media screen and (max-width: 1024px){
+    .intro-main{
+    margin-bottom:7%;
+    } 
+ 
+    .icons {
+        margin-top: 0;
+    }
+ 
+    .paragraph {
+         min-height: auto;
+         max-height: 100%;
+         margin-left: 20px;
+         margin-right: 20px;
+     }
+ 
+    .sylani_rashan span img{
+        width:140px;
+    }
+   .line2 p{
+       margin-top: 10px;
+   }
+   .footer-col-1 ul li{
+       margin-left:30px;
+   }
+   .footer-col-1 p{
+       margin-left:30px;
+   }
+ .footer-col.footer-col-3 {
+     position: relative;
+     right: 100px;
+ }
+ a.scroll_Top {
+     margin-right: 180px;
+ }
+ .box_shadow {
+     width: 300px;
+ }
+ 
+ .main1_part2 marquee {
+     height: 159px;
+ }
+ }
+ 
+ @media screen and (max-width: 900px) {
+    
+
+    .main1 .main1_part2 .design{
+        position: relative;
+        left:360px;
+        width:50px;
+    } 
+    .main1 .main1_part1 .design{
+        width:50px;
+    } 
+
+    .paragraph {
+        min-height: auto;
+        max-height: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .icons {
+        margin-top: 50px;
+        display: block;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .icons1 {
+        position: unset;
+        margin: 50px 0;
+    }
+
+    .box_shadow {
+        width: 80% !important;
+        display: block;
+        margin: 30px auto;
+    }
+    
+    .alignment {
+        display: block;
+    }
+
+    .slider img {
+        height: auto;
+    }
+
+    .main div, .main {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 10px auto;
+    }
+
+    .menubar {
+        width: 100%;
+        display: block;
+        height: auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    p.line {
+        margin: 10px 0;
+        display: block;
+    }
+
+    .sylani_rashan {
+        width: 80%;
+        display: block;
+        height: auto;
+        margin: 0px auto;
+    }
+    
+    .sylani_rashan img {
+        width: 100%;
+        display: block;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .center-div {
+        width: 100%;
+    }
+    .footer-col {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 12px;
+        width: 100%;
+        display: block;
+        text-align: left;
+        line-height: 2em;
+    }
+ 
+    .footer-col-2,.footer-col-3{
+        position: unset;
+    }
+    
+    footer {
+        padding: 20px;
+    }
+
+    a.scroll_Top {
+        bottom: 30px;
+        right: -140px;
+    }
+
+    div.gototop {
+        position: initial;
+    }
+ 
+    .main1_part2 ,
+    .main1_part1 {
+        display: block;
+        width: 100%;
+    }
+
+    .row .images_menu {
+        width: 80%;
+        margin-right: auto !important;
+    } 
+    .main1_part2 marquee {
+        width: 80%;
+        padding: 20px;
+        text-align:center;
+    }
+    .main1_part1 h2,.main1_part2 h2{
+        padding:20px !important;
+    }
+    span.design {
+        margin-left: 20px;
+    }
+
+    .main.bg-grey {
+        background: #e9e9e9;
+        z-index: 2;
+        border-bottom: 1px solid #CCC;
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .main1 {
+        text-align: center;
+    }
+
+    span.design {
+        position: absolute;
+        left: 24%;
+        width: 10%;
+    }
+
+    .main1_part1 h2 {
+        position: relative;
+        padding-bottom: 7px !important;
+    }
+
+    
+
+    .sylani_rashan span {
+        width: 19%;
+        display: inline-block;
+    }
+    
+    .sylani_rashan span img {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .footer-col.footer-col-2 {
+        display: none;
+    }
+    
+    .footer-col.footer-col-3 {
+        position: unset;
+        margin-top: 22px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .main1 .main1_part1 .design{
+        position: relative;
+        left:150px;
+    }  
+    .main1 .main1_part2 .design{
+        position: relative;
+        left:300px;
+    }  
+    
+
+    .sylani_rashan span {
+        width: 100%;
+        display: block;
+    }
+    
+    .sylani_rashan span img {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .footer-col.footer-col-2 {
+        display: none;
+    }
+    
+    .footer-col.footer-col-3 {
+        position: unset;
+        margin-top: 22px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main1 .main1_part1 .design{
+        position: relative;
+        left:60px;
+    }  
+    .main1 .main1_part2 .design{
+        position: relative;
+        left:210px;
+    } 
+
+}
+
+ @media screen and (max-width: 480px) { 
+
+span.design {
+    position: unset;
+}
+.main1 .main1_part2 .design{
+        position: relative;
+        left: 150px;
+    }
+} 
+
+@media screen and (max-width: 320px){
+    .sylani_rashan span {
+        max-width: 100%;
+        display: block !important;
+        max-width: 100%;
+        margin-left: 11%;
+    }
+
+    .footer-col {
+        display: block;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    
+    .footer-col.footer-col-3 {
+        position: unset;
+    }
+
+    .footer-col.footer-col-2 {
+        display: none;
+    }
+    
+    .sylani_rashan span img {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .main1 .main1_part1 h2{
+        font-size:15px;
+    }
+    .main1 .main1_part1 .design{
+      position:unset;
+    }
+    .main1 .main1_part2 h2{
+        font-size:15px;
+    }
+    .main1 .main1_part2 .design{
+        position:unset;
+     margin-left: 100px;
+     width:50px;
+    }
+    .row .images_menu {
+        display: inline-block;
+        width: 70%;
+        padding:10px;
+        margin-left:  -8px;
+    }
+   .last_blue{
+       font-size: 10px;
+
+   }
+   h1.center {
+    font-size: 17px;
+}
+.gototop{
+  margin-right:30px;
+}
+
+h1.blue.margin_top {
+    font-size: 20px;
+}
+h1.center {
+    font-size: 15px;
+}
+
+}
+

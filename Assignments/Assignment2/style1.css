@@ -1,0 +1,15 @@
+*{
+    margin-top: 35px;
+}
+h1{
+    color: green;
+}
+h3{
+    color: purple;
+}
+a{
+    color:#691C55    ;
+    font-weight: bold;
+    font-size: 23px;
+  text-transform: bold;
+}
